@@ -1,0 +1,36 @@
+body {
+	background-color: Silver; /* creating background color */
+	font-family: "Arial", Courier New, sans-serif; /* created a font series */
+	font-size: 13px; /* body font size in px */
+	color: #000080; /* hex color for silver */
+	font-weight: normal; /* weight normal */
+}
+
+h1, h2, h3{ /* created a parent rule for all three headings */
+	border-bottom: thin dotted #888888; /* creating a dotted line under each heading */
+	font-weight: bold; /* having the weight bold for all three headers */
+}
+
+h1{
+	font-family: "Comic Sans", Impact, sans-serif; /* created font series */
+	font-size: 40px; /* font size in px */
+	text-decoration: underline; /* created an underline for Heading 1 */
+	color: Lime; /* color lime heading 1 */
+
+	
+}
+
+h2{
+	font-family: "Impact", Comic Sans, sans-serif; /* created font series */
+	font-size: Large; /* font size in words */
+	color: Green; /* font color */
+	font-weight: normal; /* overriding parent function from bold to normal */ 
+
+}	
+
+h3{
+	font-family: "Impact", Comic Sans, sans-serif; /* created font series */
+	font-size: medium; /* font size in words */
+	color: Teal; /* font color */
+	font-weight: normal; /* overriding parent function from bold to normal */
+}

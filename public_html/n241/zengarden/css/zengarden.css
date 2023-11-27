@@ -1,0 +1,294 @@
+/*
+ Filename: zenGarden.css
+ Author: Kelly Kuhn
+ Create Date: March 17,2022
+ Purpose: Practice CSS skills and organizational patterns for web pages.
+*/
+
+
+
+
+
+/* ================================ UNIVERSAL ================================ */
+body {
+	position: absolute;
+	padding: 10px 70px;
+	border-bottom: 3px solid;
+	border-bottom-color: rgb(0,0,0); /* black */
+	font-family: "Verdana", Arial, sans-serif;
+	background-color: #FBEEC1;  /* brownish */			
+}
+
+p {
+	font-size: 14px;
+	margin: 20px 20px;
+	color: rgb(0,0,0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-family: "Comic Sans", Impact, sans-serif;
+	margin: 25px 20px 10px 20px;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	margin: 0px;
+	color: #659DBD;	/* med tan */
+}
+
+
+/* ================================ Class 1 h1 ================================ */
+
+.coke{
+	font-weight: bold;
+	font-size: 26px;
+	font-family: "Comic Sans", Impact, sans-serif;
+	margin: 25px 20px 10px 10px;
+	color: #8D8741
+	}
+
+	
+/* ================================ Class 2 h2 ================================ */
+
+.dietCoke{
+	font-weight: bold;
+	font-size: 22px;
+	font-family: "Comic Sans", Impact, sans-serif;
+	margin: 25px 20px 10px 10px;
+	color: #659DBD;
+	}
+
+
+
+/* ================================ Class 3 h3 ================================ */
+
+.cokeZero{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "Comic Sans", Impact, sans-serif;
+	margin: 25px 20px 10px 10px;
+	color: #DAAD86;
+	}
+
+
+/* ================================ Class 4 h4 ================================ */
+
+.sprite{
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "Comic Sans", Impact, sans-serif;
+	margin: 25px 20px 10px 10px;
+	color: #BC986A;
+	}
+
+/* ================================ Class h5 ================================ */
+
+.dietSprite{
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "Comic Sans", Impact, sans-serif;
+	margin: 25px 20px 10px 10px;
+	color: #BC986A;
+	}
+
+
+/* ======================= Class 5 Click Button ============================= */
+/* this highlights the bottom requirement from left to right */
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	}
+
+.btn-1{
+	width: 1000px;
+	height: 50px;
+	border: none;
+	color: white;
+	background-color: #8D8741;
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0  #659DBD;
+	transition: ease-out 0.3s;
+	font-size: 2em;
+	outline: none;
+	}
+	
+.btn-1:hover{
+	box-shadow: inset 1000px 0 0 0  #659DBD;
+	cursor: pointer;
+	color: rgb(0,0,0);
+	}
+
+/* =============================== ID's ===================================== */
+/* Id's for general and the ability to find areas on the webpage */
+
+#title p {
+	font-weight: bold;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #659DBD;	/* blue */
+}
+
+#title {
+	color: #BC986A; /* Brown */
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-top: 10px;
+	padding-left: 30px;
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	box-shadow: 0px 0px 30px #000000; /* black */
+	border: 1px solid #8D8741;			/* Greenish Brown */
+	background-color: #DAAD86;			/* Sand Red */
+}
+
+#title2 {
+	color: #8D8741; /* Brown */
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-top: 10px;
+	padding-left: 30px;
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	box-shadow: 0px 0px 30px #000000; /* black */
+	border: 1px solid #8D8741;			/* Greenish Brown */
+	background-color: #DAAD86;			/* Sand Red */
+}
+
+#title3 {
+	color: #8D8741; /* Brown */
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-top: 10px;
+	padding-left: 30px;
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	box-shadow: 0px 0px 30px #000000; /* black */
+	border: 1px solid #8D8741;			/* Greenish Brown */
+	background-color: #DAAD86;			/* Sand Red */
+}
+
+#title4 {
+	color: #8D8741; /* Brown */
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-top: 10px;
+	padding-left: 30px;
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	box-shadow: 0px 0px 30px #000000; /* black */
+	border: 1px solid #8D8741;			/* Greenish Brown */
+	background-color: #DAAD86;			/* Sand Red */
+}
+
+#faintingGoats{
+
+	}
+
+#microsoftHololens{
+
+	}
+	
+#mimicOctopus{
+
+	}
+	
+#htmlTable{
+
+	}
+
+#heightWidth{
+
+	}
+
+/*================= Hover, Active & Visited Effect ========================= */
+
+a:hover{
+	color: red;
+	}
+	
+a:active{
+	color: Yellow;
+	}
+	
+a:visited{
+	color: Green
+	}
+
+/*============================== Table =================================== */
+
+table{
+	width: 1100px;
+	text-align: center;
+	font: bold;
+	margin: auto;
+		}
+		
+table, th, td{
+	border: 2px solid #000;
+}		
+
+th, td{
+	padding: 10px;
+	}
+
+tr:nth-child(odd){
+	background-color: #BC986A;
+	}
+
+tr:nth-child(even){
+	background-color: #DAAD86;
+	}
+
+/*========================= header/footer =============================== */
+
+header, footer{
+	position: absolute;
+	background-color: #DAAD86;
+	width: 100%
+}*{
+	margin:0;
+	padding:0;
+	}
+
+header{
+	height: 6vh;
+}
+
+footer{
+	height: 6vh;
+}
+
+footer h5{
+	position: absolute;
+	left:35%
+	}
+
+
+
+
+

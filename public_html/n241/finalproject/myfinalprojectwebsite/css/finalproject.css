@@ -1,0 +1,195 @@
+/*
+ Filename: Final Project
+ Author: Kelly Kuhn
+ Create Date: April 28th, 2022
+ Modifications: 
+ Purpose: Take all the things we have learned in class and create a website for  
+ 			a company (real or fake).
+*/
+
+
+
+
+
+/* ================================ UNIVERSAL ================================ */
+
+body
+{
+	font-family:		"Verdana", Arial, sans-serif;
+	background-color:	#FFFFFF;  /* White */
+	font-size:			small;
+	margin:				0px;			
+}
+
+/* ================================ Header =================================== */
+
+   #header
+   {  	
+   		margin: 			auto; 
+   		width: 				1007px; 
+   		height: 			123px; 
+   		background-color: 	#FFFFFF; 
+   		border: 1px solid 	#862209;
+   }
+  .right_header
+  {
+  		color: 		black; 
+		float:		right;
+		font-size:	150%;
+		font-weight: bold;
+		
+  }
+/* ================================ Nav Bar =================================== */
+
+#nav
+{
+	display:			block;
+	margin: 			auto; 
+	width:				1005px; 
+	height:				60px; 
+	background-color: 	#FEF2E4; 
+	color:				#000; 
+	border: 			1px solid #000;
+}
+
+#nav ul {
+	 margin:			0px;
+	 list-style-type:	none;
+	 padding:			5px 0px 5px 0px;
+}
+
+#nav ul li
+{
+	display: inline-block; 
+	padding: 5px 10px 5px 10px;
+}
+#nav ul li a:link, nav ul li a:visited 
+{
+	text-decoration: 	none; 
+	color: 				#1C75BC; 
+	border-bottom:		none;
+	font-weight:		bold;
+}
+#nav ul li a:hover 
+{
+	text-decoration: none; 
+	color: #F60; 
+	font-weight: bold;
+}
+
+#nav ul li.seelected
+{
+	background-color:	#F9B15B;
+}
+
+/* =============================== Video ====================================== */
+
+.center
+{
+	margin-left:	auto;
+	margin-right:	auto;
+	display:		block;
+}
+
+
+/* =============================== footer =================================== */
+
+
+footer
+{
+	background-color:		#FEF2E4;
+	color:					#F9B15B; /* Yellow Orange */
+	padding:			10px;
+	margin:				10px;
+	height:				55px;
+	font-size:			10px;
+	text-align:			center;
+	clear:				left;
+	font-size:			90%;
+}
+
+/* =============================== Table =================================== */
+
+#tableContainer
+{
+	display:		table;
+}
+
+#tableRow
+{
+	display:		table-row;
+}
+
+#main
+{
+	background-color:	#F9B15B; /* Yellow Orange */
+	font-size:			105%;
+	padding:			15px;
+
+	
+}
+
+#aside
+{
+	display:				table-cell;
+	background-color:		#F9B15B; /* Yellow Orange */
+	padding: 				15px;
+	vertical-align:			top;
+}
+
+/* =========================== left side ==================================== */
+
+#sidebar
+{
+	background-color:	#F9B15B; /* Yellow Orange */
+	font-size: 			100%;
+	padding:			15px;
+	margin:				10px 0px 10px 10px;
+
+
+
+
+}
+
+/* ========================== article left =================================== */
+#article
+{
+	background-color:	#F9B15B; /* Yellow Orange */
+	font-size: 			100%;
+	padding:			15px;
+	margin:				10px 10px 10px 10px;
+	float:				left;
+
+
+}
+
+/* =========================== Header 1 ====================================== */
+
+h1
+{
+	font-size:		150%;
+	color:			#1C75BC; /* Strong Blue */
+	font-weight:	bold;
+}
+
+/* =========================== Header 2, 3 ====================================== */
+
+h2, h3
+{
+	color:			#1C75BC; /* Strong Blue */
+	font-weight:	bold;
+}
+
+/* =========================== Header 2,  ====================================== */
+
+h2
+{
+	font-size: 135%;
+}
+
+/* =========================== Header 3 ====================================== */
+
+h3
+{
+	font-size: 110%;
+}

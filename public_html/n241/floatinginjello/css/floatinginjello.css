@@ -1,0 +1,131 @@
+/*
+ Filename: floatinginjello
+ Author: Kelly Kuhn
+ Create Date: March 17,2022
+ Purpose: Practice CSS skills and organizational patterns for web pages using
+ two columns.
+*/
+
+
+
+
+
+/* ================================ UNIVERSAL ================================ */
+
+body
+{
+	font-family:		"Verdana", Arial, sans-serif;
+	background-color:	#704C5E;  /* Eggplant */
+	font-size:			small;
+	margin:				0px;			
+}
+
+/* ================================ Header =================================== */
+
+header
+{
+	background-color:	#B88C9E; /* English Lavender */
+	padding:			10px;
+	margin:				10px;
+	max-height:			40px;
+	font-size:			18px;
+	text-align:			left;
+}
+
+/* =============================== Main ====================================== */
+
+section#main
+{
+	background-color:	#88A09E; /* Morning Blue */
+	font-size:			125%;
+	padding:			15px;
+	margin:				10px 10px 10px 10px;
+	width:				50%;
+	float:				left;
+
+	
+}
+
+/* ============================ Allcontent ================================== */
+
+#allcontent
+{
+
+	width:				100%;
+	padding-top:		5px;
+	padding-bottom:		5px;
+	margin-left:		auto;
+	margin-right:		auto;
+	
+}
+
+/* =========================== right side ==================================== */
+
+aside
+{
+	background-color:	#88A09E; /* Morning Blue */
+	font-size: 			100%;
+	padding:			15px;
+	margin:				10px 10px 10px 10px;
+	float:				right;
+	width:				40%;
+
+}
+
+/* ============================ Footer ======================================= */
+
+footer
+{
+	background-color:	#B88C9E; /* English Lavender */
+	padding:			10px;
+	margin:				10px;
+	height:				55px;
+	font-size:			10px;
+	text-align:			center;
+	clear:				left;
+
+
+}
+
+
+/* =========================== Header 1 ====================================== */
+
+h1
+{
+	font-size:		150%;
+	color:			#558B6E; /* Viridian */
+	font-weight:	bold;
+}
+
+/* =========================== Header 2 ====================================== */
+
+h2
+{
+	font-size:		135%;
+	color:			#558B6E; /* Viridian */
+	font-weight:	bold;
+}
+
+/* ============================== Class ====================================== */
+
+.palmer
+{
+	text-align:		center;
+	line-height:	1em;
+}
+
+/* ======================== Pseudo Classes =================================== */
+
+a:link
+{
+	color:				#B88C9E; /* English Lavender */	
+	text-decoration:	none;
+	border-bottom:		dotted #704C5E; /* Eggplant */	
+}
+
+a:visited
+{
+	color:				#704C5E; /* Eggplant */
+	text-decoration:	none;
+	border-bottom:		dotted #B88C9E; /* English Lavender */
+}

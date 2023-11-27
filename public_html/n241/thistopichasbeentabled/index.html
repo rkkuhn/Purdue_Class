@@ -1,0 +1,172 @@
+<!doctype html>
+
+<!--
+
+ Filename: thistopichasbeentabledf.html
+ Author: Kelly Kuhn
+ Purpose: Create an table in HTML using techniques learned in Ch 13.
+ Note: Created sololy by Kelly Kuhn
+ Modification History: 
+ 18 April 2022: Create Date
+
+-->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/thistopichasbeentabled.css">
+		
+		<style>
+			td, th {border: 1px solid black;}
+		</style>
+		
+		<title>Kelly's Weekly Schedule</title>
+		
+	</head>
+	
+	<body>
+		<table> <!-- start of table -->
+			<caption>Kelly's Personal Weekly Schedule</caption>
+			<tr> <!-- Table Row Header -->
+				<th>Time</th>
+				<th>Sunday</th>
+				<th>Monday</th>
+				<th>Tuesday</th>
+				<th>Wednesday</th>
+				<th>Thursday</th>
+				<th>Friday</th>
+				<th>Saturday</th>
+			</tr>
+			<!-- Time column and schedule for each days of the week -->
+			<tr>
+				<td>7:00am-8:00am</td>
+				<td></td>
+				<td colspan="4" style="text-align:center;">Wake Up and Get Ready for School</td> <!-- colspan 4 cells and aligning the text to center in the 4 cells -->
+				<td></td>
+				<td></td>
+			</tr>
+			
+			<tr>
+				<td>8:00am-9:00am</td>
+				<td>
+					<table>
+						<tr>
+							<th>Sleep</th>
+						</tr>
+						<tr>
+							<th>Wake Up</th>
+						</tr>
+					</table>
+				</td>
+				<td colspan="4" style="text-align:center;">Drive to School</td> <!-- colspan 4 cells and aligning the text to center in the 4 cells -->
+
+				<td> <!-- Start of the Nest Table inside the original table -->
+					<table>
+						<tr>
+							<th>Sleep</th>
+						</tr>
+						<tr>
+							<th>Wake Up</th>
+						</tr>
+					</table>
+				</td>
+				
+				<td>
+					<table>
+						<tr>
+							<th>Sleep</th>
+						</tr>
+						<tr>
+							<th>Wake Up</th>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr> <!-- Rowspan with a class pointer -->
+				<td>10:00am-11:00am</td>
+				<td rowspan="2">Free Time</td>
+				<td rowspan="2" class="iupui">ASL I</td>
+				<td rowspan="2" class="study">Study</td>
+				<td rowspan="2" class="iupui">ASL I</td>
+				<td rowspan="2" class="study">Study</td>
+				<td rowspan="2" class="study">Study</td>
+				<td rowspan="2">Free Time</td>
+			
+			</tr>
+			
+			<tr>
+				<td>11:00am-12:00pm</td>
+				
+			</tr>
+			
+			<tr> <!-- Rowspan with a class pointer -->
+				<td>12:00pm-1:00pm</td>
+				<td>Lunch</td>
+				<td class="iupui">Statistic</td>
+				<td class="iupui">Data Structures</td>
+				<td class="iupui">Statistic</td>
+				<td class="iupui">Data Structures</td>
+				<td colspan="2">Lunch</td>
+			</tr>
+			
+			<tr> <!-- Rowspan with a class pointer -->
+				<td>1:00pm-2:00pm</td>
+				<td rowspan="5" class="study">Study</td>
+				<td colspan="4" style="text-align:center;">Lunch</td>
+				<td rowspan="5" class="study">Study</td>
+				<td rowspan="5">Run Errands</td>
+				
+			</tr>
+			
+			<tr> <!-- Rowspan with a class pointer -->
+				<td>2:00pm-3:00pm</td>
+				<td rowspan="3" colspan="4" class="study" style="text-align:center;">Study (include HTML)</td>
+			</tr>
+			
+			<tr>
+				<td>3:00pm-4:00pm</td>
+				
+			</tr>
+			
+			<tr>
+				<td>4:00pm-5:00pm</td>
+				
+			</tr>
+			
+			<tr> <!-- Rowspan with a class pointer -->
+				<td>5:00pm-6:00pm</td>
+				<td colspan="4" style="text-align:center;">Drive Home</td>
+				
+			</tr>
+			
+			<tr> <!-- Rowspan with a class pointer -->
+				<td>6:00pm-7:00pm</td>
+				<td colspan="7" style="text-align:center;">Dinner</td>
+
+			</tr>
+			
+			<tr> <!-- Rowspan with a class pointer -->
+				<td>7:00pm-8:00pm</td>
+				<td rowspan="2" colspan="7" style="text-align:center;">Free Time</td>
+				
+			</tr>
+			
+			<tr>
+				<td>8:00pm-9:00pm</td>
+				
+			</tr>
+			
+			<tr> <!-- Rowspan with a class pointer -->
+				<td>9:00pm-10:00pm</td>
+				<td colspan="7" class="gotobed" style="text-align:center;">Go to Bed</td>
+				
+			</tr>
+		</table>
+
+	</body>
+</html>		
+
+			
+			

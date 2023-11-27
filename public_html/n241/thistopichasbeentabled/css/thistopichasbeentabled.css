@@ -1,0 +1,70 @@
+/*
+ Filename: thistopichasbeentabled.css
+ Author: Kelly Kuhn
+ Create Date: March 17,2022
+ Purpose: Practice CSS skills and organizational patterns for web pages using
+ two columns.
+*/
+
+
+
+
+
+/* ================================ UNIVERSAL ================================ */
+
+body {
+	font-family: "Verdana", Geneva, Arial, sans-serif;
+	font-size: large;
+}
+
+h1, h2{
+	color: #DE9E36;
+}
+
+/* ================================= Class ================================== */
+
+.iupui{
+	background-color:	#EEBA0B;	/* Orange Yellow */
+}
+
+.study{
+	background-color:	#F4E409;	/*Titanium Yellow */
+}
+
+.gotobed{
+	background-color:	red;	/* red */
+}
+
+/* ================================ Table =================================== */
+
+/* table settings */
+table {
+	margin-left:		20px;
+	margin-right:		20px;
+	border:				thin solid black;
+	border-collapse:	collapse;
+}
+
+/* td and th settings */
+td, th {
+	border: 			thin dotted gray;
+	padding:			5px;
+}
+
+/* Override for th background color */
+th{
+	background-color:	#C36F09; /* Ochre */
+}
+
+/* Override for background color in the nested tables */
+table table th{
+	background-color:	white; /* color for the nested tables */
+}
+
+/* style for caption */
+caption {
+	font-style:			italic;
+	padding-top:		10px;
+	color:				red;
+}
+

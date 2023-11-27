@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #DAA520;
+}
+a {
+	outline: none;
+}
+a img {
+	border: none;
+}
+a:hover, a:active {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+#content {
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 400px;
+}
+#content h1 {
+	position: relative;
+	margin: 0 0 5px;
+	padding: 0 0 5px;
+	font: normal 26px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	border-bottom: 1px solid #ccc;
+}
+#content h2 {
+	position: relative;
+	margin: 0;
+	padding: 10px 0 4px;
+	font: normal 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #888;
+	letter-spacing: -1px;
+}
+#content a:link, #content a:visited {
+	display: block;
+	padding: 10px 0 0;
+	color: #999;
+	text-decoration: none;
+}
+#content a:hover, #content a:active {
+	text-decoration: underline;
+}
+
+#content h4 {
+	position: relative;
+	margin: 0;
+	font-weight: normal;
+	padding: 6px 0 4px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #888;
+	border-top: 1px solid #ccc;
+	margin-top: 10px;
+}

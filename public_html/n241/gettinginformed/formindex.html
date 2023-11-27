@@ -1,0 +1,140 @@
+<!doctype html>
+<!-- 
+ Author: Kelly Kuhn
+ Date: April 25, 2022
+ Project: Getting inFormed
+ Tested in MS Edge, Safari, Opera, Firefox, and Google Crome
+ TXT to place here
+-->
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Get inFormed</title> 
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link href="css/getinformed.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body> <!-- start of the body -->
+	
+		<h1>Palmer's Pet Care Services Contact Request Form</h1>
+		<br>
+		<h2>Please fill out the form below and click "SUBMIT",</h2>
+		<h2>We will get back to you within 24 business hours.</h2>
+		<br>
+	
+	<!-- start of the form with the results being sent to my junk email account -->	
+	<form action="mailto:rkellykuhn@gmail.com" method="post" enctype="text/plain">
+		
+		<!-- created class "tableRow" for style purposes in css -->
+		<div class="tableRow">
+			<p class ="heading">General Contact Information:</p>
+			<p></p> <!-- creates a blank space -->
+		</div>
+		
+		<div class="tableRow">
+			<p> Name: </p>
+			<p> <input type="text" placeholder="John Smith" required></p> <!-- used placeholder to prompt user what needs to be filled in and required to ensure the field is filled out -->
+		</div>
+		
+		<div class="tableRow">
+			<p> Address: </p>
+			<p> <input type="text" placeholder="510 West 10th Street" required></p> <!-- used placeholder to prompt user what needs to be filled in and required to ensure the field is filled out -->
+		</div>
+		
+		<div class="tableRow">
+			<p> City: </p>
+			<p> <input type="text" placeholder="Indianapolis" required></p> <!-- used placeholder to prompt user what needs to be filled in and required to ensure the field is filled out -->
+		</div>
+		
+		<div class="tableRow">
+			<p> State: </p>
+			<p> <input type="text" placeholder="IN" required></p> <!-- used placeholder to prompt user what needs to be filled in and required to ensure the field is filled out -->
+		</div>
+		
+		<div class="tableRow">
+			<p> Zip: </p>
+			<p> <input type="text" placeholder="45021" required></p> <!-- used placeholder to prompt user what needs to be filled in and required to ensure the field is filled out -->
+		</div>
+		
+		<div class="tableRow">
+			<p> Phone: </p>
+			<p> <input type="tel" placeholder="512-453-6933" required></p> <!-- used placeholder to prompt user what needs to be filled in and required to ensure the field is filled out -->
+		</div>
+		
+		<br>
+		
+		<div class="tableRow"> <!-- radio button with a yes/no value option -->
+			<p class="heading">Are you interested in a free puppy potty training class? </p>
+				<input type ="radio" name="pottytraining" value= "yes">Yes, I would like to know more.<br>
+				<input type ="radio" name="pottytraining" value= "no">No, not at this time.<br>
+		</div>	
+
+		<br>
+		
+		<div class="tableRow"> <!-- created a drop down selection menu for user to pick an option -->
+			<p class="heading"> Are you interested in pricing for home doggie night sitting? </p>
+				<select name="inhome">
+					<option value="One Night">One Night</option>
+					<option value="Two Night">Two Night</option>
+					<option value="Three Night">Three Nights</option>
+					<option value="Weekends">Weekends</option>
+					<option value="Longer Request">Longer Custom Stay</option>
+					<option value="No">No</option>
+				</select>
+		</div>
+		
+		<br>
+		
+		<div class="tableRow"> <!-- created a drop down selection menu for user to pick an option -->
+			<p class="heading"> Are you interested in pricing for our dog walking service? </p>
+				<select name="dogwalking">
+					<option value="Once a Day">Once a Day</option>
+					<option value="Twice a Day">Twice a Day</option>
+					<option value="Two Days a Week">Two Days a Week</option>
+					<option value="Three Days a Week">Three Days a Week</option>
+					<option value="Five Days a Week">Five Days a Week</option>
+					<option value="Weekends">Weekends</option>
+					<option value="Longer Request">Longer Custom Stay</option>
+					<option value="No">No</option>
+				</select>
+		</div>
+		
+		<br>
+		<br>
+		
+		<div class="tableRow"> <!-- used a label to ensure a min and max value -->
+			<label for="dog">Number of dogs?</label>
+			<input type="number" id="dog" name="dog" min="1" max="3">
+		</div>
+		
+		<br>
+		
+		
+		<fieldset> <!-- fieldset, legend and checkbox all used here -->
+			<legend>Obedience Training Services</legend>
+				<input type="checkbox" name="obedience" value="puppy obedience classes"> Puppy Obedience Classes <br>
+				<input type="checkbox" name="obedience" value="basic obedience"> Basic Obedience Classes <br>
+				<input type="checkbox" name="obedience" value="not interested"> Not Interested in Obedience Classes <br>
+		</fieldset>
+
+		
+		<br>
+		
+		<div class="tableRow"> <!-- textarea section -->
+				<p class="heading">Customer Comments:</p>
+				<textarea name="comments"></textarea>
+		</div>
+		
+		<br>
+		
+		<div class="tableRow"> <!-- submit and reset buttons -->
+			<p></p>
+				<p><input type="submit" value ="Submit Infomation Request!">
+
+				<input type="reset" value="Clear alll contents entered!"></p>
+		</div>
+		
+	</form>
+	</body>
+</html>

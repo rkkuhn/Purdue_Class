@@ -1,0 +1,168 @@
+/*
+ Author: Kelly Kuhn
+ Date: April 25, 2022
+ Project: Getting inFormed
+*/
+
+
+/* style for the body of the HTML code */
+body{
+	font-family:		"Verdana", Arial, sans-serif;
+	background-color:	#FFFFFF;  /* White */
+	font-size:			small;
+	margin:				0px;	
+}
+
+
+/* ================================ Header =================================== */
+
+   #header 
+   {  	
+   		margin: 			auto; 
+   		width: 				1007px; 
+   		height: 			123px; 
+   		background-color: 	#FFFFFF; 
+   		border: 1px solid 	#862209;
+   }
+  .right_header
+  {
+  		color: 		black; 
+		float:		right;
+		font-size:	150%;
+		font-weight: bold;
+  }
+
+/* ================================ Nav Bar =================================== */
+
+#nav
+{
+	display:			block;
+	margin: 			auto; 
+	width:				1005px; 
+	height:				60px; 
+	background-color: 	#FEF2E4; 
+	color:				#000; 
+	border: 			1px solid #000;
+}
+
+#nav
+{
+	display:			block;
+	margin: 			auto; 
+	width:				1005px; 
+	height:				60px; 
+	background-color: 	#FEF2E4; 
+	color:				#000; 
+	border: 			1px solid #000;
+}
+
+#nav ul {
+	 margin:			0px;
+	 list-style-type:	none;
+	 padding:			5px 0px 5px 0px;
+}
+
+#nav ul li
+{
+	display: inline-block; 
+	padding: 5px 10px 5px 10px;
+}
+#nav ul li a:link, nav ul li a:visited 
+{
+	text-decoration: 	none; 
+	color: 				#1C75BC; 
+	border-bottom:		none;
+	font-weight:		bold;
+}
+#nav ul li a:hover 
+{
+	text-decoration: none; 
+	color: #F60; 
+	font-weight: bold;
+}
+
+#nav ul li.seelected
+{
+	background-color:	#F9B15B;
+}
+
+
+
+
+/* code for both h1 and h2 that is the same */
+h1, h2 {
+	text-align:		center;
+	color:			#1C75BC;
+	font-weight:	bold;
+}
+
+/* h1 font size set */
+h1{
+	font-size:		30px;
+}
+
+/* h2 font size set */
+h2{
+	font-size:		20px;
+}
+
+/* settings for the entire form */
+form{
+	display:			table;
+	padding:			10px;
+	border:				thin dotted #7e7e7e;
+	background-color:	#F9B15B;
+}
+
+/* textarea properties */
+form textarea {
+	width:		500px;
+	height:		200px;
+}
+
+/* setup for a two table column */
+div.tableRow {
+	display:	table-row;
+}
+
+/* the <p> elements nested in the table row will get the following settings */
+div.tableRow p {
+	display:		table-cell;
+	vertical-align:	top;
+	padding:		3px;
+}
+
+/* first-child pseudo-element in <p> elements that are nested in the table row will get the following alignment */
+div.tableRow p:first-child {
+	text-align:	right;
+}
+
+/* settings for any <p> element with the class heading will be bold */
+p.heading {
+	font-weight: bold;
+}
+
+/* settings for fieldset */
+fieldset {
+display:		block;
+margin-left:	3px;
+margin-right:	3px;
+padding-top:	0.35em;
+padding-bottom:	0.625em;
+padding-left:	0.75em;
+padding-right:	0.75em;
+border:			2px groove;
+}
+
+/* footer */
+footer
+{
+	background-color:		#FEF2E4;
+	color:					#1C75BC;
+	text-align:				center;
+	padding:				15px;
+	margin:					0px 10px 10px 10px;
+	font-size:				90%;
+}
+
+
